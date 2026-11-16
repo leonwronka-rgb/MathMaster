@@ -1,0 +1,30 @@
+2026-11-12 18:30:43,290 ERROR __main__: Application startup failed
+Traceback (most recent call last):
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\main.py", line 25, in main
+    app = MathMasterApp(config)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\core\app.py", line 164, in __init__
+    self.theme_manager.apply(self.user_preferences)
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\settings\theme_manager.py", line 80, in apply
+    self._refresh_tree(self.root, old_palette, new_palette, settings)
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\settings\theme_manager.py", line 85, in _refresh_tree
+    self._refresh_widget(widget, old, new, settings)
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\settings\theme_manager.py", line 98, in _refresh_widget
+    if option not in keys:
+       ^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable
+2026-11-12 18:30:53,176 ERROR __main__: Application startup failed
+Traceback (most recent call last):
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\main.py", line 25, in main
+    app = MathMasterApp(config)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\core\app.py", line 164, in __init__
+    self.theme_manager.apply(self.user_preferences)
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\settings\theme_manager.py", line 80, in apply
+    self._refresh_tree(self.root, old_palette, new_palette, settings)
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\settings\theme_manager.py", line 85, in _refresh_tree
+    self._refresh_widget(widget, old, new, settings)
+  File "c:\Users\leonw\Documents\python workspace\MathMaster\settings\theme_manager.py", line 98, in _refresh_widget
+    if option not in keys:
+       ^^^^^^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not iterable

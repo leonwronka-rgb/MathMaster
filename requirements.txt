@@ -1,0 +1,7 @@
+customtkinter>=5.2.2
+matplotlib>=3.9
+sympy>=1.13
+bcrypt>=4.2
+cryptography>=43
+keyring>=25
+websocket-client>=1.8

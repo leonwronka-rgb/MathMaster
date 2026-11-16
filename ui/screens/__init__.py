@@ -1,0 +1,1 @@
+"""Widoki aplikacji MathMaster."""

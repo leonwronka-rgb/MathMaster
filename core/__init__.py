@@ -1,0 +1,1 @@
+"""Rdzeń aplikacji MathMaster."""

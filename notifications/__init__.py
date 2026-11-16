@@ -1,0 +1,1 @@
+"""Powiadomienia i przypomnienia aplikacji."""
