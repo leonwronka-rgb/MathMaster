@@ -1,0 +1,1 @@
+"""Widok rozwiązywania ćwiczeń."""
