@@ -1,0 +1,75 @@
+{
+  "format_version": 1,
+  "id": "mathmaster.starter.exams.v1",
+  "version": 1,
+  "created_at": "2026-11-14T16:24:21.772954+00:00",
+  "source": "Opracowanie MathMaster; egzaminy składają się ze zweryfikowanych zadań z paczek startowych.",
+  "exams": [
+    {
+      "id": "starter.arithmetic.1",
+      "name": "Arytmetyka — sprawdzian podstawowy",
+      "description": "Sprawdza podstawowe działania i kolejność wykonywania działań.",
+      "category": "Arytmetyka",
+      "educational_level": "Szkoła podstawowa – klasy 4–6",
+      "time_limit_seconds": 900,
+      "task_ids": [
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n01",
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n02",
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n03",
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n04",
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n05",
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n06",
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n07",
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n08",
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n09",
+        "task.curriculum_arytmetyka_liczby_i_dziaania_addition.d1.n10"
+      ],
+      "max_points": 10,
+      "pass_percent": 50
+    },
+    {
+      "id": "starter.fractions.1",
+      "name": "Ułamki — sprawdzian działowy",
+      "description": "Skracanie ułamków i dodawanie ułamków o różnych mianownikach.",
+      "category": "Ułamki",
+      "educational_level": "Szkoła podstawowa – klasy 4–6",
+      "time_limit_seconds": 1200,
+      "task_ids": [
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n01",
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n02",
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n03",
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n04",
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n05",
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n06",
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n07",
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n08",
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n09",
+        "task.curriculum_uamki_i_liczby_dziesietne_uamki_zwyke_fraction_simplify.d1.n10"
+      ],
+      "max_points": 10,
+      "pass_percent": 50
+    },
+    {
+      "id": "starter.algebra.1",
+      "name": "Równania liniowe — trening",
+      "description": "Trening przekształcania i sprawdzania równań liniowych.",
+      "category": "Algebra",
+      "educational_level": "Szkoła podstawowa – klasy 7–8",
+      "time_limit_seconds": 1500,
+      "task_ids": [
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n01",
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n02",
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n03",
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n04",
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n05",
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n06",
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n07",
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n08",
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n09",
+        "task.curriculum_algebra_rownania_i_nierownosci_linear_equation.d3.n10"
+      ],
+      "max_points": 30,
+      "pass_percent": 50
+    }
+  ]
+}
